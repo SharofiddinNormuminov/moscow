@@ -63,14 +63,11 @@ ul li a {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  margin-top: 37px;
 }
 .hero_content {
   margin-left: 90px;
 }
-.hero_content_arrow {
-  margin-top: 37px;
-}
-
 .hero_content_arrow p a {
   font-size: 1.4rem;
   font-weight: 400;
@@ -147,43 +144,65 @@ ul li a {
     text-align: center;
     margin-top: 130px;
   }
-  .hero_content h1{
+  .hero_content h1 {
     font-size: 8rem;
   }
-  .hero_content .hero_content_txt{
+  .hero_content .hero_content_txt {
     font-size: 2rem;
   }
   .hero_img img {
     top: 50px;
   }
-  .hero_icons{
-    margin-top: 490px;
+  .hero_icons {
+    margin-top: 495px;
   }
 }
 @media screen and (max-width: 582px) {
-  .hero_icons{
-    margin-top: 463px;
+  .hero_icons {
+    margin-top: 475px;
+  }
+  .hero_content_arrow img {
+    max-width: 75px;
+    height: 35px;
   }
 }
 @media screen and (max-width: 422px) {
+  .hero_content {
+    margin-top: 100px;
+  }
   .hero_content h1 {
     font-size: 6rem;
   }
   .hero_content .hero_content_txt {
     max-width: 580px;
     font-size: 1.8rem;
+    margin-top: 25px;
   }
   .hero_content_arrow {
     display: flex;
     justify-content: center;
   }
+  .hero_content_arrow img {
+    max-width: 70px;
+    height: 30px;
+  }
   .hero_icons {
     justify-content: center;
     gap: 2.5rem;
-    margin-top: 500px;
+    margin-top: 540px;
   }
   .hero_icons .hero_icons_twitter img {
     max-width: 30px;
     height: 30px;
+  }
+}
+@media screen and (max-width: 382px) {
+  .hero_icons {
+    margin-top: 520px;
+  }
+}
+@media screen and (max-width: 313px) {
+  .hero_icons {
+    margin-top: 499px;
   }
 }
