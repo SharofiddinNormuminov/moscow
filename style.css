@@ -96,7 +96,40 @@ ul li a {
     max-width: 96%;
   }
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 888px) {
+  .hero_icons {
+    flex-direction: row;
+    gap: 4rem;
+    margin-top: 410px;
+    justify-content: center;
+  }
+  .hero_icons .hero_icons_twitter img {
+    max-width: 35px;
+    height: 35px;
+  }
+  .hero_img img {
+    top: 0px;
+  }
+  .hero_content {
+    margin-left: auto;
+  }
+  .hero_content h1 {
+    text-align: center;
+  }
+  .hero_content .hero_content_txt {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .hero_content_arrow {
+    justify-content: center;
+  }
+  .hero_content_arrow p a {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 640px) {
   .container {
     max-width: 95%;
   }
@@ -112,14 +145,27 @@ ul li a {
   }
   .hero_content {
     text-align: center;
-    margin: 0 auto;
+    margin-top: 130px;
   }
-  .hero_icons {
-    flex-direction: row;
-    gap: 3rem;
+  .hero_content h1{
+    font-size: 8rem;
+  }
+  .hero_content .hero_content_txt{
+    font-size: 2rem;
+  }
+  .hero_img img {
+    top: 50px;
+  }
+  .hero_icons{
+    margin-top: 490px;
   }
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 582px) {
+  .hero_icons{
+    margin-top: 463px;
+  }
+}
+@media screen and (max-width: 422px) {
   .hero_content h1 {
     font-size: 6rem;
   }
@@ -134,5 +180,10 @@ ul li a {
   .hero_icons {
     justify-content: center;
     gap: 2.5rem;
+    margin-top: 500px;
+  }
+  .hero_icons .hero_icons_twitter img {
+    max-width: 30px;
+    height: 30px;
   }
 }
